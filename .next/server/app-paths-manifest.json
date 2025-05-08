@@ -1,4 +1,11 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/send/route": "app/api/send/route.js",
+  "/about/page": "app/about/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/licenses/page": "app/licenses/page.js",
   "/page": "app/page.js",
-  "/contact/page": "app/contact/page.js"
+  "/products/[category]/page": "app/products/[category]/page.js",
+  "/products/[category]/[product]/page": "app/products/[category]/[product]/page.js",
+  "/products/page": "app/products/page.js"
 }

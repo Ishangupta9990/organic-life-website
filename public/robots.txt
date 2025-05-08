@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://organic-life.in
+
+# Sitemaps
+Sitemap: https://organic-life.in/sitemap.xml
