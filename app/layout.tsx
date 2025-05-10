@@ -49,7 +49,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-  <head>
+    <head>
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -57,7 +57,19 @@ export default function RootLayout({
     <link rel="manifest" href="/site.webmanifest" />
     <meta name="theme-color" content="#ffffff" />
     <meta name="msapplication-TileColor" content="#ffffff" />
+
+    {/* Structured Data for Google Search */}
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Organic Life Enterprises",
+        "url": "https://www.organic-life.in",
+        "logo": "https://www.organic-life.in/favicon.ico"
+      }
+    ` }} />
   </head>
+
 
 
     <body className={`${poppins.variable} ${playfair.variable} ${montserrat.variable} font-sans`}>
