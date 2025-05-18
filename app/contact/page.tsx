@@ -63,7 +63,7 @@ export default function ContactPage() {
                   <Phone className="w-6 h-6 mr-4 mt-1" />
                   <div>
                     <h3 className="text-xl font-semibold mb-1">Phone</h3>
-                    <p>+91-8400640070</p>
+                    <p>+91-9555930712</p>
                   </div>
                 </div>
 
@@ -71,7 +71,7 @@ export default function ContactPage() {
                   <Mail className="w-6 h-6 mr-4 mt-1" />
                   <div>
                     <h3 className="text-xl font-semibold mb-1">Email</h3>
-                    <p>aryangupta@live.com</p>
+                    <p>info@organiclifenow.in</p>
                   </div>
                 </div>
 
