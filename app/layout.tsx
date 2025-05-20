@@ -6,6 +6,8 @@ import "./globals.css"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import { ThemeProvider } from "@/components/theme-provider"
+import Script from "next/script";
+
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -73,6 +75,23 @@ export default function RootLayout({
 
 
     <body className={`${poppins.variable} ${playfair.variable} ${montserrat.variable} font-sans`}>
+      { /* Global site tag (gtag.js) - Google Analytics */ }
+      <Script
+  src={`https://www.googletagmanager.com/gtag/js?id=G-FXR972Q88G`}
+
+ strategy="afterInteractive"
+/>
+<Script id="google-analytics" strategy="afterInteractive">
+  {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-FXR972Q88G', {
+      page_path: window.location.pathname,
+    });
+  `}
+</Script>
+
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           <Header />
           <main>{children}</main>
