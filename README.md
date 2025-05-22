@@ -63,7 +63,7 @@ The repository includes:
 ## 📬 Contact
 
 📧 Email: [ishangupta9990@gmail.com](mailto:ishangupta9990@gmail.com)  
-🔗 [LinkedIn](www.linkedin.com/in/ishan-gupta-77b879326)  
+🔗 [LinkedIn](www.linkedin.com/in/ishan-gupta-77b879326/)  
 📸 Instagram(Brand): (https://instagram.com/organiclife.enterprise) 
 👤 Instagram (Me): [@ishang999]((https://www.instagram.com/ishang999/)) 
 📘 [Facebook](https://facebook.com/organiclife.enterprise)
